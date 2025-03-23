@@ -3,11 +3,11 @@
 [[Paper]](https://arxiv.org/abs/2404.09387)
 
 
-![RankCLIP](images/intro_teaser_up.png)
-![RankCLIP](images/intro_teaser_down.png)
-
 
 Self-supervised contrastive learning models, such as CLIP, have set new benchmarks for vision-language models in many downstream tasks. However, their dependency on rigid oneto-one mappings overlooks the complex and often multifaceted relationships between and within texts and images. To this end, we introduce RANKCLIP, a novel pretraining method that extends beyond the rigid one-to-one matching framework of CLIP and its variants. By extending the traditional pair-wise loss to listwise, and leveraging both in-modal and crossmodal ranking consistency, RANKCLIP improves the alignment process, enabling it to capture the nuanced many-to-many relationships between and within each modality. Through comprehensive experiments, we demonstrate the effectiveness of RANKCLIP in various downstream tasks, notably achieving significant gains in zero-shot classifications over stateof-the-art methods, underscoring the importance of this enhanced learning process.
+
+![RankCLIP](images/intro_teaser_up.png)
+![RankCLIP](images/intro_teaser_down.png)
 
 
 
