@@ -1,0 +1,31 @@
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - albumentations
+    - dill
+    - einops
+    - ftfy
+    - git+https://github.com/openai/CLIP.git
+    - h5py
+    - matplotlib
+    - numpy
+    - nltk
+    - omegaconf
+    - pandas
+    - pillow
+    - pip
+    - pyflakes
+    - regex
+    - scikit-image
+    - seaborn
+    - tensorflow
+    - tokenizers
+    - torch
+    - torchvision
+    - tqdm
+    - transformers
+    - typing_extensions
+    - wandb
+    - wrapt
