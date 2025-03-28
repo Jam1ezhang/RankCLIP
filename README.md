@@ -41,6 +41,7 @@ For ImageNet1K
 ```
 python -m rankclip.main --name <eval_imagenet_1k> --eval_data_type <dataset> --eval_test_data_dir data/ImageNet1K/validation/ --device_id 0 --checkpoint <ckpts/epoch_64.pt> 
 ```
+Our checkpoints are here [ViT_checkpoint_cc3m](https://drive.google.com/file/d/1Ap1HL6QmlNIBHu2vN4flHMsL9H2L04rh/view?usp=drive_link)  [ViT_checkpoint_yfcc15m](https://drive.google.com/file/d/1TfzQl9u33wZMMpbIUbQ857mnPFE5A4n9/view?usp=drive_link)
 ## 🔒 Licenses
 
 You can use, redistribute, and adapt the material for non-commercial purposes, as long as you give appropriate credit by citing our paper and indicating any changes that you've made.The service is a research preview intended for non-commercial use only.
