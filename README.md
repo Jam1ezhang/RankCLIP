@@ -1,7 +1,8 @@
-# RankCLIP
+# [ICCV2025] RankCLIP
 
-[[Paper]](https://arxiv.org/abs/2404.09387)
-
+## 📣 News
+- **_(2025.6.29)_**: ✨Our paper is accepted to ICCV2025❗️
+- **_(2024.9.15)_**: ✨Code has been released❗️
 
 
 Self-supervised contrastive learning models, such as CLIP, have set new benchmarks for vision-language models in many downstream tasks. However, their dependency on rigid oneto-one mappings overlooks the complex and often multifaceted relationships between and within texts and images. To this end, we introduce RANKCLIP, a novel pretraining method that extends beyond the rigid one-to-one matching framework of CLIP and its variants. By extending the traditional pair-wise loss to listwise, and leveraging both in-modal and crossmodal ranking consistency, RANKCLIP improves the alignment process, enabling it to capture the nuanced many-to-many relationships between and within each modality. Through comprehensive experiments, we demonstrate the effectiveness of RANKCLIP in various downstream tasks, notably achieving significant gains in zero-shot classifications over stateof-the-art methods, underscoring the importance of this enhanced learning process.
@@ -55,13 +56,13 @@ Some portions of the code in this repository are adaptations from the following 
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@article{Zhang2024RankCLIPRL,
-  title={RankCLIP: Ranking-Consistent Language-Image Pretraining},
-  author={Yiming Zhang and Zhuokai Zhao and Zhaorun Chen and Zhaorun Chen and Zhili Feng and Zenghui Ding and Yining Sun},
-  journal={ArXiv},
-  year={2024},
-  volume={abs/2404.09387},
-  url={https://api.semanticscholar.org/CorpusID:269149157}
+@InProceedings{Zhang_2025_ICCV,
+    author    = {Zhang, Yiming and Zhao, Zhuokai and Chen, Zhaorun and Feng, Zhili and Ding, Zenghui and Sun, Yining},
+    title     = {RANKCLIP: Ranking-Consistent Language-Image Pretraining},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {3874-3884}
 }
 ```
 
